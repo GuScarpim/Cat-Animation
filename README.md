@@ -1,7 +1,7 @@
 # Cat Animation - GSAP
 
 Criando uma animação com SVG.
-# <a href="https://guscarpim.github.io/upload-image-react-base64/" target="_blank">Deploy</a>
+# <a href="https://cat-animation.netlify.app/" target="_blank">Deploy</a>
 
 ## Ferramentas utilizadas
 

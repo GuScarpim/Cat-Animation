@@ -2,7 +2,9 @@ import { useEffect } from "react";
 
 import CatEffect from "../../Services/cat";
 
-import { Container } from "./styles";
+import { AiFillGithub } from 'react-icons/ai'
+
+import { Container, Content, Href, Strong } from "./styles";
 
 export default function CatAnimation() {
   useEffect(() => {
@@ -239,6 +241,12 @@ export default function CatAnimation() {
           id="cheekLeftCat"
         />
       </svg>
+
+      <Content>
+          <Href href="https://github.com/GuScarpim/Cat-Animation" target="_blank">
+            <AiFillGithub /> <Strong>Gustavo Scarpim</Strong>
+          </Href>
+      </Content>
     </Container>
   );
 }

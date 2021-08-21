@@ -18,4 +18,4 @@ Criando uma animação com SVG.
 <b>3º Rode o comando `npm start` ou `yarn start`.</b>
 
 # Desenvolvido por Gustavo Scarpim:
-![Projeto em ação](./Assets/cat.gif)
+![Projeto em ação](./src/Assets/cat.gif)

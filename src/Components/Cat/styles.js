@@ -25,7 +25,7 @@ export const Href = styled.a`
   display: flex;
   align-items: center;
   transition: all .5s;
-  
+
   svg {
     transform: scale(1.2);
     margin-right: 5px;

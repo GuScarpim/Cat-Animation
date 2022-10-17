@@ -1,7 +1,7 @@
-import { gsap, SlowMo } from "gsap/all";
+import { gsap, SlowMo } from "gsap/all"
 
 export default function CatEffect() {
-  const tl = gsap.timeline();
+  const tl = gsap.timeline()
 
   // Lines
   tl.from("#firstLine, #secondLine", {
@@ -53,7 +53,7 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#branchSecondFlower, #branchFourthFlower",
@@ -70,7 +70,7 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#firstFlower, #thirdFlower",
@@ -87,7 +87,7 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#secondFlower, #fourthFlower",
@@ -102,7 +102,7 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#branchQuintFlower, #branchSixFlower",
@@ -123,7 +123,7 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#quintFlower, #sixFlower",
@@ -140,14 +140,14 @@ export default function CatEffect() {
       duration: 3,
     },
     1
-  );
+  )
 
 
   // Cat
   gsap.from("#headCat, #bodyCat, #armCat, #catPaw, #nosePaw, #tailCat, #eyeRightCat, #eyeLeftCat, #cheekRightCat, #cheekLeftCat", {
     duration: 3,
     opacity: 0,
-  });
+  })
 
   gsap.fromTo(
     "#tailCat",
@@ -168,7 +168,7 @@ export default function CatEffect() {
       duration: 1,
     },
     1
-  );
+  )
 
   gsap.fromTo(
     "#eyeRightCat, #eyeLeftCat",
@@ -185,7 +185,7 @@ export default function CatEffect() {
       yoyo: true,
     },
     3
-  );
+  )
 
   gsap.fromTo(
     "#cheekRightCat, #cheekLeftCat",
@@ -201,6 +201,6 @@ export default function CatEffect() {
       yoyo: true,
     },
     3
-  );
+  )
 }
 
